@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Importing Bootstrap -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <head>
+    <title>Tabs</title>
+
+    <!-- including bootstrap  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style media="screen">
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+<body>
+
+  <!--  creating clickable titles for the tabs using bootstrap and lists -->
+
+  <ul class="nav nav-tabs">
+
+    <li class="nav-item">
+      <a class="nav-link active" onClick="showImages(event, 'Football')">Football</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" onClick="showImages(event, 'Basketball')">Basketball</a>
+    </li>
+
+  </ul>
+
+  <!-- content to show when football tab is selected -->
+  <div class="tabcontent" id="Football">
+
+    <div class="row">
+
+      <div class="col-4">
+        <image src="football/1.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="football/2.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="football/3.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="football/4.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="football/5.png" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- content to show when basketball tab is selected -->
+  <div class="tabcontent" id="Basketball">
+
+    <div class="row">
+
+      <div class="col-4">
+        <image src="basketball/1.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="basketball/2.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="basketball/3.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="basketball/4.png" />
+      </div>
+
+      <div class="col-4">
+        <image src="basketball/5.png" />
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
